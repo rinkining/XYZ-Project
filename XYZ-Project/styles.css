@@ -1,0 +1,169 @@
+.boutique{
+text-align:center;
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.produits-grid{
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+gap:40px;
+max-width:800px;
+margin:auto;
+}
+
+.produit{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.produit img{
+width:100%;
+height:150px;
+object-fit:contain;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#36254c;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:#c8a2ff;
+color:#36254c;
+}
+
+body{
+  margin:0;
+  min-height:100vh;
+
+  background-image: url("image.png");
+  background-size: cover;        /* l'image remplit l'écran */
+  background-position: center;   /* centre l'image */
+  background-repeat: no-repeat;  /* évite les doublons */
+  background-attachment: fixed;  /* fond fixe pendant le scroll */
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #36254c;
+    padding: 0 40px;
+    height: 90px;
+}
+
+/* LOGO */
+
+.logo img{
+    height:60px;
+}
+
+/* MENUS */
+
+.menu,
+.user-menu{
+    list-style:none;
+    display:flex;
+    gap:30px;
+    margin:0;
+    padding:0;
+}
+
+/* LIENS */
+
+.menu a,
+.user-menu a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+/* HOVER */
+
+.menu a:hover,
+.user-menu a:hover{
+    color:#c8a2ff;
+}
+
+/* BOUTON INSCRIPTION */
+
+.user-menu li:first-child a{
+    background:#c8a2ff;
+    padding:8px 15px;
+    border-radius:20px;
+    color:#36254c;
+    font-weight:bold;
+}
+
+.user-menu li:first-child a:hover{
+    background:white;
+}
+
+.categories{
+text-align:center;
+padding:60px;
+background:#f5f5f5;
+}
+
+.categorie-container{
+display:flex;
+justify-content:center;
+gap:60px;
+}
+
+.categorie{
+background:white;
+padding:20px;
+border-radius:10px;
+width:200px;
+}
+
+.categorie img{
+width:100%;
+}
+
+.categorie a{
+text-decoration:none;
+color:#36254c;
+font-weight:bold;
+}
+.boutique h1,
+.decouvrez{
+color: white;
+text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.categories-btn{
+margin:30px 0;
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.btn-cat{
+background:#36254c;
+color:white;
+padding:12px 25px;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn-cat:hover{
+background:#c8a2ff;
+color:#36254c;
+}
