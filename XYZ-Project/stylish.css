@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    background-image: url("background.png");
+    background-repeat: no-repeat;   
+    background-size: cover;        
+    background-position: center;    
+    height: 100vh;
+}
+.navbar {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: darkmagenta;
+}
+.logo img{
+    height:60px;
+    justify-content: start;
+    margin-left: 30px;
+}
+.menu, .menu_droite {  /* Changer le texte ! puis mettre un lien */
+    display: flex;
+    gap: 30px;
+}
+.menu{
+    justify-content: center;
+}
+.menu_droite{
+    justify-content: end;
+    margin-right: 30px;
+}
