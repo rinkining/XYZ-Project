@@ -25,18 +25,32 @@
   </div>
 </nav>                      <!--Fin de la navbar-->
     <main>
+      <div class="container">
         <form action="register.php" method="post">
             <h1>Vous voulez nous contacter ?</h1>
 
+            <label><b>Nom et Prénom</b></label>
+            <input type="nom" placeholder="Nom et prénom" name="name" required>
+
+            <label><b>Numéro de Téléphone</b></label>
+            <input type="telephone" placeholder="Entrer votre numéro.." name="phone" required>
+
             <label><b>Adresse Email</b></label>
-            <input type="address" placeholder="Entrer l'adresse email" name="email" required>
+            <input type="adresse" placeholder="Entrer l'adresse email" name="email" required>
 
             <label><b>Votre demande</b></label>
-            <textarea name="message" palceholder="Dites-nous.." required></textarea>
+            <textarea rows="10" cols="40" name="message" placeholder="Dites-nous.." required></textarea>
 
-            <label><b>Mot de passe</b></label>
-            <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+            <label>Type de demande:</label>
+            <select name="type_demande">
+              <option>Choisir Votre Type de Demande</option>
+              <option>Professionel</option>
+              <option>Rendez-vous</option>
+              <option>Renseignement</option>
+              <option>Support</option>
+            </select>
 
             <input type="submit" id="submit" value="CREATE YOUR ACCOUNT">
         </form>
+      </div>
     </main>
