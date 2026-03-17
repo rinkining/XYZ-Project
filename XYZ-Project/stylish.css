@@ -5,6 +5,7 @@ body{
     background-size: cover;        
     background-position: center;    
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar {
     display:grid;
@@ -20,6 +21,10 @@ body{
     display: flex;
     gap: 30px;
 }
+.menu a, .menu_droite a {
+    text-decoration: none;
+    color: white;
+}
 .menu{
     justify-content: center;
 }
@@ -27,14 +32,14 @@ body{
     justify-content: end;
     margin-right: 30px;
 }
-.container {                                /* Boite Centrée début */
+.container {                        /* Boite Centrée début*/
     width: 70%;
     max-width: 800px;
-    height: 450px;
     background-color: white;
     border-radius: 10px;
     padding: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    /* plus de height fixe */
 }
 
 .container form {
@@ -42,9 +47,31 @@ body{
     display: flex;
     flex-direction: column;
 }
-main{
+main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 60px); 
-}                                          /* Boite Centrée fin */
+    justify-content: center; /* centre horizontalement */
+    align-items: flex-start; /* laisse la boîte s'adapter verticalement */
+    padding-top: 20px;       /* petit espace en haut */
+    padding-bottom: 20px;    /* petit espace en bas */
+}                                       /* Boite Centrée fin */
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* important pour inclure le padding */
+}
+
+#submit {
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#submit:hover {
+    background-color: purple;
+}
