@@ -1,4 +1,5 @@
-    <!DOCTYPE html>
+
+<!DOCTYPE html>
     <html lang="fr">
     <head>
         <meta charset="UTF-8">
@@ -25,33 +26,27 @@
     </div>
     </nav>                      <!--Fin de la navbar-->
     <main>
-      <div class="container">
-<h3>QUI SOMME-NOUS ?</h3>
-<p>Nous somme XYZ music une entreprise expertisée dans le domaine de l'audio et nous aimerons mettre nos connaissance a votre diposition et vous vendre des Produits de hautes qualitée </p>
-<section class="categories">
+        <div class="container">
+<h1>Mon panier</h1>
 
-<h2>Nos catégories</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Produit</th>
+            <th>Prix</th>
+            <th>Quantité</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php include 'shoppingcart.php'; ?>
+    </tbody>
+</table>
 
-<div class="categorie-container">
-
-<div class="categorie">
-<img src="CasqueAccueil.png">
-<h3>Casques</h3>
-<a href="casques.html">Voir les casques</a>
-</div>
-
-<div class="categorie">
-<img src="EcouteurAccueil.png">
-<h3>Écouteurs</h3>
-<a href="ecouteurs.html">Voir les écouteurs</a>
-</div>
-
-</div>
-
-</section>
-</div>
-</main>
-    <footer>
+<h2>Total : <?php echo $_SESSION['total']; ?> €</h2>
+        </div>
+    </main>
+        <footer>
       <div>
         <p>David-LIN Joris-FARRUGIA</br>
         © 2026 AudioZone – Tous droits réservés</br>

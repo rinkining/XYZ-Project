@@ -4,8 +4,10 @@ body{
     background-repeat: no-repeat;   
     background-size: cover;        
     background-position: center;    
-    height: 100vh;
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .navbar {
     display:grid;
@@ -49,10 +51,11 @@ body{
 }
 main {
     display: flex;
-    justify-content: center; /* centre horizontalement */
+    justify-content: center; 
     align-items: flex-start; /* laisse la boîte s'adapter verticalement */
-    padding-top: 20px;       /* petit espace en haut */
-    padding-bottom: 20px;    /* petit espace en bas */
+    padding-top: 20px;       
+    padding-bottom: 20px;
+    flex: 1;    
 }                                       /* Boite Centrée fin */
 
 input, textarea, select {
@@ -61,7 +64,7 @@ input, textarea, select {
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    box-sizing: border-box; /* important pour inclure le padding */
+    box-sizing: border-box; 
 }
 
 #submit {
@@ -74,4 +77,42 @@ input, textarea, select {
 }
 #submit:hover {
     background-color: purple;
+}
+
+.categories{
+text-align:center;
+padding:60px;
+background:#f5f5f5;
+}
+
+.categorie-container{
+display:flex;
+justify-content:center;
+gap:60px;
+}
+
+.categorie{
+background:white;
+padding:20px;
+border-radius:10px;
+width:200px;
+}
+
+.categorie img{
+width:100%;
+}
+
+.categorie a{
+text-decoration:none;
+color:#36254c;
+font-weight:bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgray;
 }
