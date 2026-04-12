@@ -21,7 +21,8 @@ session_start();
     <h2><a href="index.php">Accueil</a></h2>
     <h2><a href="boutique.php">Boutique</a></h2>
     <h2><a href="propos.php">À propos</a></h2>
-    <h2><a href="#">Contact</a></h2>
+    <h2><a href="contact.php">Contact</a></h2>
+    
   </div>
 
   <div class="menu_droite">
@@ -32,6 +33,7 @@ session_start();
     <?php else : ?>
         <h2><a href="register.php">S'inscrire</a></h2>
         <h2><a href="login.php">Se connecter</a></h2>
+        <h2><a href="shoppingcart.html">Panier</a></h2>
     <?php endif; ?>
 </div>
 
