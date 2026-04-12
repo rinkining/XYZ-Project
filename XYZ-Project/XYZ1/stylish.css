@@ -8,41 +8,50 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .navbar {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
     background-color: darkmagenta;
-    height: 115px;
-    align-items: center;
-    padding: 0 30px; 
+    padding: 0 40px;
+    height: 135px; 
 }
-.logo img{
-    height: 133px;
+
+.logo img {
+    height: 150px;
     width: auto;
 }
-.menu, .menu_droite {  /* Changer le texte ! puis mettre un lien */
+.menu, .menu_droite {  
     display: flex;
-    gap: 30px;
+    gap: 35px;
     align-items: center;
 }
 .menu a, .menu_droite a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
 }
+
 .menu{
     justify-content: center;
 }
 .menu_droite{
     justify-content: flex-end;
 }
-.container {                        /* Boite Centrée début*/
-    width: 70%;
+.menu_droite h2 {
+    margin: 0;
+    font-size: 16px;
+}
+.container {                       
     max-width: 800px;
     background-color: white;
     border-radius: 10px;
     padding: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    /* plus de height fixe */
+    
 }
 
 .container form {
@@ -52,11 +61,11 @@ body{
 }
 main {
     display: flex;
-    justify-content: center; /* centre horizontalement */
-    align-items: flex-start; /* laisse la boîte s'adapter verticalement */
-    padding-top: 20px;       /* petit espace en haut */
-    padding-bottom: 20px;    /* petit espace en bas */
-}                                       /* Boite Centrée fin */
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-top: 20px;      
+    padding-bottom: 20px;    
+}                                       
 
 input, textarea, select {
     width: 100%;
@@ -64,7 +73,7 @@ input, textarea, select {
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    box-sizing: border-box; /* important pour inclure le padding */
+    box-sizing: border-box; 
 }
 
 #submit {
@@ -77,4 +86,22 @@ input, textarea, select {
 }
 #submit:hover {
     background-color: purple;
+}
+
+.footer{
+    background-color: #ccc;
+
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .menu, .menu_droite {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
