@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions Générales d'Utilisation | XYZ Music</title>
+    <link href="stylish.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">        <!--Début de la navbar-->
+
+    <div class="logo">
+        <img src="Logo.png" alt="XYZ Music Logo">
+    </div>
+    <div class="menu">
+        <h2><a href="index.html">Accueil</a></h2>
+        <h2><a href="shop.html">Boutique</a></h2>
+        <h2><a href="about.html">À propos</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
+        <h2><a href="faq.html">FAQ</a></h2>
+    </div>
+    <div class="menu_droite">
+        <h2><a href="register.html">S'inscrire</a></h2>
+        <h2><a href="login.html">Se connecter</a></h2>
+        <h2><a href="shoppingcart.html">Panier</a></h2>
+    </div>
+</nav>                      <!--Fin de la navbar-->
+
+<main>
+    <div class="container">
+        <h1>Conditions Générales d'Utilisation</h1>
+        <p><strong>Dernière mise à jour : Avril 2026</strong></p>
+
+        <section>
+            <h2>1. Acceptation des conditions</h2>
+            <p>En accédant et en utilisant XYZ Music, vous acceptez d'être lié par les présentes conditions 
+                générales d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre 
+                site.</p>
+        </section>
+
+        <section>
+            <h2>2. Propriété intellectuelle</h2>
+            <p>Le contenu du site XYZ Music, y compris les textes, images, graphiques et logos, sont entièrement prises
+                sur internet (sauf les textes et le logo), nous ne sommes donc en aucun cas propriétaire de toutes ces
+                informations, si vous voulez faire une réclamation n'hésitez pas à faire un ticket dans l'onglet contact du site
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Limitation de responsabilité</h2>
+            <p>XYZ ne se porte pas garant de votre utilisation du site à des fins douteuses, nous nous dédoienons de 
+                toute responsabilité potentiel (Corruption disponible à partir de 500€ TTC)
+            </p>
+        </section>
+
+        <section>
+            <h2>4. Commandes et paiements</h2>
+            <p>Vous pouvez commander autant que vous voulez sur le site, cependant il n'existe pas de remboursement 
+                en cas d'achat accidentelle</p>
+        </section>
+
+        <section>
+            <h2>5. Livraison</h2>
+            <p>Nous nous efforçons de livrer vos commandes dans les meilleurs délais. Cependant il se peut que certains
+                colis aient des legers contre-temps comme condition météorologique, accident de la route, chute de météorite,
+                disparition inexplicable, attaque extraterreste, enlevement divin, etc. Si l'une de ces conditions se présentent nous ne sommes
+                en aucun cas responsable de l'état du colis et aucun remboursement ne sera pris en compte.
+            </p>
+        </section>
+
+        <section>
+            <h2>6. Garantie des produits</h2>
+            <p>Tous nos produits bénéficient d'une garantie minimale conforme à la loi applicable. En cas de défaut constaté dans les 30 jours suivant la réception, nous procéderons à un remplacement ou un remboursement à notre discrétion. Pour les réclamations au-delà de 30 jours, veuillez contacter le fabricant directement.</p>
+        </section>
+
+        <section>
+            <h2>7. Données personnelles et confidentialité</h2>
+            <p>Vos données personnelles sont collectées et traitées conformément à notre politique de confidentialité. XYZ Music s'engage à protéger vos informations personnelles et ne les partagera avec aucun tiers sans votre consentement, sauf si la loi l'exige.</p>
+        </section>
+
+        <section>
+            <h2>8. Comptes utilisateur</h2>
+            <p>Si vous créez un compte sur notre site, vous êtes responsable du maintien de la confidentialité de vos identifiants de connexion et de votre mot de passe. Vous acceptez d'être responsable de toutes les activités qui se produisent sous votre compte. Vous devez nous informer immédiatement de toute utilisation non autorisée de votre compte.</p>
+        </section>
+
+        <section>
+            <h2>9. Modification des conditions</h2>
+            <p>XYZ Music se réserve le droit de modifier les présentes conditions à tout moment. Les modifications seront publiées sur cette page et entreront en vigueur immédiatement. Votre utilisation continue du site constitue votre acceptation des modifications.</p>
+        </section>
+
+        <section>
+            <h2>10. Loi applicable</h2>
+            <p>Les présentes conditions sont régies par les lois de la France et vous vous soumettez à la juridiction exclusive des tribunaux de France pour tout litige découlant de ces conditions.</p>
+        </section>
+
+        <section>
+            <h2>11. Contact</h2>
+            <p>Pour toute question concernant ces conditions générales d'utilisation, veuillez nous contacter à l'adresse suivante :</p>
+            <p>
+                <strong>XYZ Music</strong><br>
+                Email : contact@xyzmusic.com<br>
+                Téléphone : +33 9 19 29 B9
+            </p>
+        </section>
+
+        <section>
+            <h2>12. Clause de non-discrimination</h2>
+            <p>XYZ Music s'engage à servir tous les clients de manière égale et équitable, indépendamment de leur origine, couleur, religion, sexe, orientation sexuelle ou handicap. Nous rejeton toute forme de discrimination sur notre plateforme.</p>
+        </section>
+    </div>
+</main>
+
+<footer>                                            <!--Début Footer -->
+    <div>
+        <p>David-LIN Joris-FARRUGIA<br>
+        © 2026 XYZ Music – Tous droits réservés<br>
+        Contact : contact@xyzmusic.com<br>
+        | +33 9 19 29 B9</p>
+    </div>
+    <div class="footer-social">
+        <a href="https://www.facebook.com/share/g/1C6cMV9t8z/"><img src="facebook-icon-free-png.png" alt="Facebook" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/qaqtrash/"><img src="Instagram-Icon.png" alt="Instagram" width="50px" height="50px"></a>
+        <a href="https://www.youtube.com/@XYZMusicGxng"><img src="youtube-color-icon.png" alt="YouTube" width="50px" height="50px"></a>
+    </div>
+</footer>                                           <!--Fin Footer -->
+</body>
+</html>
