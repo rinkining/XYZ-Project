@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | XYZ Music </title>
+        <link href="stylish.css" rel="stylesheet">
+    </head>
+    <body>
+    <nav class="navbar">        <!--Début de la navbar-->
+
+    <div class="logo">
+        <img src="Logo.png" alt="XYZ Music Logo">
+    </div>
+    <div class="menu">
+        <h2><a href="index.html">Accueil</a></h2>
+        <h2><a href="shop.html">Boutique</a></h2>
+        <h2><a href="about.html">À propos</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
+        <h2><a href="faq.html">FAQ</a></h2>
+    </div>
+    <div class="menu_droite">
+        <h2><a href="register.html">S'inscrire</a></h2>
+        <h2><a href="login.html">Se connecter</a></h2>
+        <h2><a href="shoppingcart.html">Panier</a></h2>
+    </div>
+    </nav>                      <!--Fin de la navbar-->
+    <main>
+        <div class="container">
+<h1>Mon panier</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Produit</th>
+            <th>Prix</th>
+            <th>Quantité</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php include 'shoppingcart.php'; ?>
+    </tbody>
+</table>
+
+<h2>Total : <?php echo $_SESSION['total']; ?> €</h2>
+        </div>
+    </main>
+        <footer>
+      <div>
+        <p>David-LIN Joris-FARRUGIA</br>
+        © 2026 AudioZone – Tous droits réservés</br>
+        Contact : contact@xyzmusic.com </br>
+        | +33 9 19 29 B9 </p>
+      </div>
+        <div class=footer-social>
+        <a href="https://www.facebook.com/share/g/1C6cMV9t8z/"><img src="facebook-icon-free-png.png" alt="Facebook" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/qaqtrash/"><img src="Instagram-Icon.png" alt="Instagram" width="50px" height="50px"></a>
+        <a href="https://www.youtube.com/@XYZMusicGxng"><img src="youtube-color-icon.png" alt="YouTube" width="50px" height="50px"></a>
+        </div>
+    </footer>
+</body>
+</html>
