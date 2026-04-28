@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | XYZ Music </title>
+        <link href="stylish.css" rel="stylesheet">
+    </head>
+    <body>
+    <nav class="navbar">        <!--Début de la navbar-->
+
+    <div class="logo">
+        <img src="Logo.png" alt="XYZ Music Logo">
+    </div>
+    <div class="menu">
+        <h2><a href="index.html">Accueil</a></h2>
+        <h2><a href="shop.html">Boutique</a></h2>
+        <h2><a href="about.html">À propos</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
+        <h2><a href="faq.html">FAQ</a></h2>
+    </div>
+    <div class="menu_droite">
+        <h2><a href="register.html">S'inscrire</a></h2>
+        <h2><a href="login.html">Se connecter</a></h2>
+        <h2><a href="shoppingcart.html">Panier</a></h2>
+    </div>
+    </nav>                      <!--Fin de la navbar-->
+    <main>
+      <div class="container">
+                    <form action="register.php" method="post">
+                <h1>Bienvenue sur la page de création de compte</h1>
+
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+                <label><b>Adresse Email</b></label>
+                <input type="address" placeholder="Entrer l'adresse email" name="email" required>
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+                <input type="submit" id="submit" value="CREATE YOUR ACCOUNT">
+
+                <p>Vous avez déjà un compte ?</p>
+                <a href="login.html">Connectez-vous</a>
+            </form>
+      </div>
+    </main>

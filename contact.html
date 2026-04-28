@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | XYZ Music </title>
+    <link href="stylish.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">        <!--Début de la navbar-->
+
+  <div class="logo">
+    <img src="Logo.png" alt="XYZ Music Logo">
+  </div>
+  <div class="menu">
+    <h2><a href="index.html">Accueil</a></h2>
+    <h2><a href="shop.html">Boutique</a></h2>
+    <h2><a href="about.html">À propos</a></h2>
+    <h2><a href="contact.html">Contact</a></h2>
+    <h2><a href="faq.html">FAQ</a></h2>
+  </div>
+  <div class="menu_droite">
+    <h2><a href="register.html">S'inscrire</a></h2>
+    <h2><a href="login.html">Se connecter</a></h2>
+    <h2><a href="shoppingcart.html">Panier</a></h2>
+  </div>
+</nav>                      <!--Fin de la navbar-->
+    <main>
+      <div class="container">
+        <form action="register.php" method="post">
+            <h1>Vous voulez nous contacter ?</h1>
+
+            <label><b>Nom et Prénom</b></label>
+            <input type="nom" placeholder="Nom et prénom" name="name" required>
+
+            <label><b>Numéro de Téléphone</b></label>
+            <input type="telephone" placeholder="Entrer votre numéro.." name="phone" required>
+
+            <label><b>Adresse Email</b></label>
+            <input type="adresse" placeholder="Entrer l'adresse email" name="email" required>
+
+            <label><b>Votre demande</b></label>
+            <textarea rows="10" cols="40" name="message" placeholder="Dites-nous.." required></textarea>
+
+            <label><b>Type de demande:</b></label>
+            <select name="type_demande">
+              <option>Choisir Votre Type de Demande</option>
+              <option>Professionel</option>
+              <option>Rendez-vous</option>
+              <option>Renseignement</option>
+              <option>Support</option>
+            </select>
+          </br>
+
+            <input type="submit" id="submit" value="SEND IT">
+        </form>
+      </div>
+    </main>
